@@ -89,7 +89,6 @@ const { other } = require('./database/menu/other')
 const { owb } = require('./database/menu/owb')
 const { maker } = require('./database/menu/maker')
 const { sound } = require('./database/menu/sound')
-const { vip } = require('./database/menu/premium')
 /*
 ]=====> FUNCTION <=====[
 */
@@ -593,11 +592,6 @@ switch(command) {
                 if (isBanned) return reply(nad.baned())
 				if (!isRegistered) return reply(nad.noregis())					
 					await costum(sound(pushname, prefix, botName, ownerName, getLevelingLevel, sender, _registered), text, tescuk, cr)
-					break
-                case 'premiummenu':
-                if (isBanned) return reply(nad.baned())
-				if (!isRegistered) return reply(nad.noregis())					
-					await costum(vip(pushname, prefix, botName, ownerName, getLevelingLevel, sender, _registered), text, tescuk, cr)
 					break																			
                 case 'ownermenu':
                 if (isBanned) return reply(nad.baned())
