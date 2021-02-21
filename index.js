@@ -1911,7 +1911,7 @@ switch(command) {
 				if (!isPrem) return reply(nad.premium())
 				adu = await getBuffer(`https://api.xteam.xyz/randomimage/thighs?APIKEY=${XteamKey}`)
 				reply('Tobat bro tobat :v')
-					baby.sendMessage(from, adu, image, {quoted: mek, caption: 'Jangan Comly >_<'})q<
+					baby.sendMessage(from, adu, image, {quoted: mek, caption: 'Jangan Comly >_<'})
 					break
 					case 'uniform':
 				if (isBanned) return reply(nad.baned())
