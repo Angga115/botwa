@@ -653,7 +653,7 @@ switch(command) {
 							case 'sticker':
 							case 's':
 							case 'stickergif':
-							case 'stikergif
+							case 'stikergif':
 				    if (isBanned) return reply(nad.baned())
 				    if (!isRegistered) return reply(nad.noregis())
 				    if (isLimit(sender)) return reply(nad.limitend(pusname))
