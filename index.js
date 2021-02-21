@@ -1893,7 +1893,7 @@ switch(command) {
 				if (isBanned) return reply(nad.baned())
                 if (!isRegistered) return reply(nad.noregis())
 				if (!isPrem) return reply(nad.premium())
-				awu = await getBuffer(`https://api.xteam.xyz/randomimage/ass?APIKEY=${XteamKey}`))
+				awu = await getBuffer(`https://api.xteam.xyz/randomimage/ass?APIKEY=${XteamKey}`)
 				reply('Tobat bro tobat :v')
 					baby.sendMessage(from, awu, image, {quoted: mek, caption: 'Jangan Comly >_<'})
 					break
