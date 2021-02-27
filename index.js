@@ -2709,7 +2709,7 @@ rmln.sendMessage(from, pmex, extendedText, {quoted: mek, contextInfo: {"mentione
 				if (!isOwner) return reply(nad.ownerb())
 				expired = "30d"
 				if (args.length < 1 ) return reply(' tag member nya bos')
-				alan = `${args[0].replace('@','')}@s.whatsapbp.net`
+				alan = `${args[0].replace('@','')}@s.whatsapp.net`
 				const ngeri = {id: alan , expired: Date.now() + toMs(expired) }
 				premium.push(ngeri) 
 				fs.writeFileSync('./database/user/premium.json',JSON.stringify(premium))
